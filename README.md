@@ -71,7 +71,7 @@ Results were produced with Python 3.13, scikit-learn 1.9.1, NumPy 2.5.3, pandas 
 
 ## Citation
 
-If you use this code, please cite:
+This software accompanies the manuscript listed above. If you use this code, please cite the archived software release:
 
 Chi, J., & Nindo, C. (2026). Banana quality classification: a reproducible benchmark of nine classifiers (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23321996
 
