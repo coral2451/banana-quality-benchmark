@@ -1,5 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the article."
+message: >-
+  This software accompanies the manuscript
+  "Machine learning approaches for banana quality prediction:
+  A reproducible comparative benchmark."
+  If you use this code, please cite the software using the metadata below.
+type: software
 title: "Banana quality classification: a reproducible benchmark of nine classifiers"
 authors:
   - family-names: "Chi"
@@ -12,3 +17,4 @@ version: "1.0.0"
 date-released: "2026-10-12"
 license: MIT
 repository-code: "https://github.com/coral2451/banana-quality-benchmark"
+doi: "10.5281/zenodo.23321996"
