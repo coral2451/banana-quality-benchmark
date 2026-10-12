@@ -1,4 +1,5 @@
 # Banana quality classification: a reproducible benchmark of nine classifiers
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23321996.svg)](https://doi.org/10.5281/zenodo.23321996)
 
 Code and results for:
 
@@ -67,6 +68,12 @@ Figures 1, 2 and S1 to S4 are descriptive plots of the raw data and are not gene
 ## Software
 
 Results were produced with Python 3.13, scikit-learn 1.9.1, NumPy 2.5.3, pandas 3.0.5, SciPy 1.18.1 and Matplotlib 3.11.2 (`requirements.txt`). Other versions should give very similar results, but the last decimal places may differ.
+
+## Citation
+
+If you use this code, please cite:
+
+Chi, J., & Nindo, C. (2026). Banana quality classification: a reproducible benchmark of nine classifiers (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23321996
 
 ## License
 
