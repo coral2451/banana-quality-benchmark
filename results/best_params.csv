@@ -1,0 +1,10 @@
+model,C,max_depth,n_neighbors,weights,var_smoothing,alpha,hidden_layer_sizes,min_samples_leaf,gamma
+LDA,,,,,,,,,
+LR,0.01,,,,,,,,
+CART,,,,,,,,,
+DT,,12,,,,,,,
+KNN,,,19,distance,,,,,
+NB,,,,,1e-09,,,,
+NNET,,,,,,0.001,"(64, 32)",,
+RF,,,,,,,,1,
+SVM,1,,,,,,,,1

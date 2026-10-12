@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Banana quality classification: a reproducible benchmark of nine classifiers"
+authors:
+  - family-names: "Chi"
+    given-names: "Jennifer"
+    affiliation: "University of Maryland Eastern Shore"
+  - family-names: "Nindo"
+    given-names: "Caleb"
+    affiliation: "University of Maryland Eastern Shore"
+version: "1.0.0"
+date-released: "2026-10-12"
+license: MIT
+repository-code: "https://github.com/coral2451/banana-quality-benchmark"

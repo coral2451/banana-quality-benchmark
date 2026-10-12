@@ -1,0 +1,8 @@
+attribute,coefficient,ci_low,ci_high
+Weight,1.291,1.232,1.354
+Sweetness,1.065,1.001,1.126
+Size,0.999,0.934,1.059
+Ripeness,0.896,0.835,0.958
+HarvestTime,0.829,0.768,0.896
+Softness,0.111,0.06,0.164
+Acidity,-0.106,-0.172,-0.042

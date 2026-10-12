@@ -1,0 +1,49 @@
+test accuracy = 0.8644
+thresholds below are on the StandardScaler scale fitted to the training set
+
+|--- Sweetness <= 0.40
+|   |--- HarvestTime <= 0.61
+|   |   |--- Ripeness <= -0.04
+|   |   |   |--- Size <= 0.92
+|   |   |   |   |--- class: 0
+|   |   |   |--- Size >  0.92
+|   |   |   |   |--- class: 0
+|   |   |--- Ripeness >  -0.04
+|   |   |   |--- Weight <= 0.47
+|   |   |   |   |--- class: 0
+|   |   |   |--- Weight >  0.47
+|   |   |   |   |--- class: 1
+|   |--- HarvestTime >  0.61
+|   |   |--- Ripeness <= -1.30
+|   |   |   |--- Size <= 1.09
+|   |   |   |   |--- class: 0
+|   |   |   |--- Size >  1.09
+|   |   |   |   |--- class: 1
+|   |   |--- Ripeness >  -1.30
+|   |   |   |--- Softness <= -0.49
+|   |   |   |   |--- class: 0
+|   |   |   |--- Softness >  -0.49
+|   |   |   |   |--- class: 1
+|--- Sweetness >  0.40
+|   |--- Softness <= 0.38
+|   |   |--- Weight <= 0.25
+|   |   |   |--- Size <= 0.76
+|   |   |   |   |--- class: 0
+|   |   |   |--- Size >  0.76
+|   |   |   |   |--- class: 1
+|   |   |--- Weight >  0.25
+|   |   |   |--- HarvestTime <= -1.44
+|   |   |   |   |--- class: 1
+|   |   |   |--- HarvestTime >  -1.44
+|   |   |   |   |--- class: 1
+|   |--- Softness >  0.38
+|   |   |--- Size <= -0.19
+|   |   |   |--- Weight <= 1.31
+|   |   |   |   |--- class: 0
+|   |   |   |--- Weight >  1.31
+|   |   |   |   |--- class: 1
+|   |   |--- Size >  -0.19
+|   |   |   |--- HarvestTime <= -0.45
+|   |   |   |   |--- class: 1
+|   |   |   |--- HarvestTime >  -0.45
+|   |   |   |   |--- class: 1

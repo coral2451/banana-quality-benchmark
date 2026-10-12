@@ -1,0 +1,5 @@
+kernel,cv5_train,test
+rbf,0.9811,0.9812
+linear,0.878,0.8719
+poly,0.9431,0.935
+sigmoid,0.7331,0.7225
